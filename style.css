@@ -11,7 +11,7 @@ html, body {
     font-size: 16px;
 }
 header{
-    padding: 15px;
+    padding: 1.2rem;
     background-color: #d02f47;
     color: white;
 }
@@ -23,10 +23,11 @@ header{
 }
 nav a{
     font-family: "Noto sans", serif;
-    font-size: 20px;
-    color: white;
+    font-size: 1.3rem;
+    color: #234263;
     padding: 14px;
-    margin-top: 0px;
+    padding-top: 1.5rem;
+    padding-bottom: 1.2rem;
     text-decoration: none;
 }
 nav a:hover{
@@ -49,24 +50,40 @@ article{
 }
 h1{
     color: #2f60d0;
-    font-size: 50px;
+    font-size: 3rem;
     padding: 20px;
+    margin-top: 0px;
     margin-bottom: 14px;
     text-align: center;
 }
-p{
-    padding: 22px;
-    margin: 0;
-    font-size: 16px;
-}
-.balle {
-    text-align: center;
-    max-inline-size: 500px;
-    margin-right: auto;
-    margin-left: auto;
-}
+
 #woah{
     width: 20px;
     margin-top: 0px;
     padding-right: 6px;
+}
+#page-container{
+    position:relative;
+    min-height:100vh;
+}
+#sosse{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #d02f47;
+    height: 9rem;
+    font-family: "Noto sans", serif;
+    font-size:1.2rem;
+    color: #234263;
+}
+#sosse{
+    position:  absolute;
+    bottom: 0;
+    width: 100%;
+}
+#logo{
+    align-self: center;
+    width: 45px;
+    padding-top: 15px;
+    margin-bottom: 5px;
 }
