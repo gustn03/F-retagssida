@@ -24,7 +24,7 @@ header{
 nav a{
     font-family: "Noto sans", serif;
     font-size: 1.3rem;
-    color: #234263;
+    color: white;
     padding: 14px;
     padding-top: 1.5rem;
     padding-bottom: 1.2rem;
@@ -74,7 +74,7 @@ h1{
     height: 9rem;
     font-family: "Noto sans", serif;
     font-size:1.2rem;
-    color: #234263;
+    color: white;
 }
 #sosse{
     position:  absolute;
