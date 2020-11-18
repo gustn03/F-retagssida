@@ -14,6 +14,8 @@ header{
     padding: 1.2rem;
     background-color: #d02f47;
     color: white;
+    position: sticky;
+    top: 0;
 }
 #nav{
     display: flex;
@@ -33,15 +35,9 @@ nav a{
 nav a:hover{
     background-color: #ad2537;
     transition: 0.75s;
-    border:ridge;
-    border-width: 1px;
-    border-color: #ad2537;
 }
 nav a:not(:hover){
     transition: 0.25s;
-    border:ridge;
-    border-width:1px;
-    border-color:#d02f47;
 }
 article{
     display: flex;
@@ -86,4 +82,56 @@ h1{
     width: 45px;
     padding-top: 15px;
     margin-bottom: 5px;
+}
+#container1{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    text-align: center;
+    padding-left: 1.3rem;
+    padding-right: 1.2rem;
+    background-color: #e7ffff;
+    font-family: "noto-sans", serif;
+}
+.regiwide{
+    padding-left: 0;
+    width: 79%;
+}
+.conttxt{
+    align-self: center;
+    font-size: 26px;
+}
+#container2{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    text-align: center;
+    padding-left: 1.2rem;
+    padding-right: 1.3rem;
+    background-color: white;
+    font-family: "noto-sans", serif;
+}
+#containertall{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: #e7ffff;
+}
+#nosereverse{
+    margin-top: 50px;
+    height:73%;
+    justify-self: center;
+}
+#regitall{
+    padding: auto;
+    width: 56%;
+}
+.kurgerbing{
+    color: white;
+}
+@media (max-width: 564px){
+    .conttxt{
+        font-size: 16px;
+    }
+}
+.txtcont{
+    display: flex;
+    flex-flow: wrap;
 }
