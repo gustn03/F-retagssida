@@ -125,6 +125,7 @@ h1{
 }
 .kurgerbing{
     color: white;
+    text-decoration: none;
 }
 @media (max-width: 564px){
     .conttxt{
@@ -134,4 +135,43 @@ h1{
 .txtcont{
     display: flex;
     flex-flow: wrap;
+}
+#FAQ-container{
+    display: flex;
+    flex-direction: column;
+    padding: 35%;
+    padding-top: 0;
+    text-align: left;
+    font-family: "Noto-sans", serif;
+    font-size:19px;
+}
+.fråga{
+    font-weight: bold;
+}
+.Trailer{
+    padding-top: 5%;
+    padding-left: 15%;
+    padding-bottom: 0;
+    width: 700px;
+    height: 125px;
+}
+#game-container{
+    display:flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 25%;
+    padding-top: 0;
+    justify-content: center;
+}
+.gdescription{
+    padding-bottom: 15%;
+    font-size: 19px;
+}
+.hknight{
+    padding-top: 5%;
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: none;
+    color: #2f60d0;
+    align-self: center;
 }
