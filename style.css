@@ -150,18 +150,17 @@ h1{
 }
 .Trailer{
     padding-top: 5%;
-    padding-left: 15%;
     padding-bottom: 0;
     width: 700px;
     height: 125px;
+    align-self: center;
 }
 #game-container{
     display:flex;
     flex-direction: column;
     text-align: left;
-    padding: 25%;
+    padding: 25%; 
     padding-top: 0;
-    justify-content: center;
 }
 .gdescription{
     padding-bottom: 15%;
